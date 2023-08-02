@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         superKahramanIsimleri.add("Aquaman")
         superKahramanIsimleri.add("Spiderman")
 
-        //verimsiz yol görselleri oluşturucam
+/*        //verimsiz yol görselleri oluşturucam
         val batmanBitmap = BitmapFactory.decodeResource(applicationContext.resources,R.drawable.batman)
         val supermanBitmap = BitmapFactory.decodeResource(applicationContext.resources,R.drawable.superman)
         val ironmanBitmap = BitmapFactory.decodeResource(applicationContext.resources,R.drawable.ironman)
@@ -45,9 +45,26 @@ class MainActivity : AppCompatActivity() {
         superKahramanGorselleri.add(ironmanBitmap)
         superKahramanGorselleri.add(aquamanBitmap)
         superKahramanGorselleri.add(spidermanBitmap)
+*/
+        //verimli tanımlamalar
+        val batmanDrawableId = R.drawable.batman
+        val supermanDrawableId = R.drawable.superman
+        val ironmanDrawableId = R.drawable.ironman
+        val aquamanDrawableId = R.drawable.aquaman
+        val spidermanDrawableId = R.drawable.spiderman
+
+        val superKahramanDrawableListesi = ArrayList<Int>()
+        superKahramanDrawableListesi.add(batmanDrawableId)
+        superKahramanDrawableListesi.add(supermanDrawableId)
+        superKahramanDrawableListesi.add(ironmanDrawableId)
+        superKahramanDrawableListesi.add(aquamanDrawableId)
+        superKahramanDrawableListesi.add(spidermanDrawableId)
+
+
+
         val layoutManager = LinearLayoutManager(this)
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
-        val adapter = RecyclerAdapter(superKahramanIsimleri,superKahramanGorselleri)
+        val adapter = RecyclerAdapter(superKahramanIsimleri,superKahramanDrawableListesi)
         binding.recyclerView.adapter = adapter
     }
 }

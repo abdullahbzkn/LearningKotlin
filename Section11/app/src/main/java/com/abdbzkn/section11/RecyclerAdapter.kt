@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.Recycler
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 
-class RecyclerAdapter (val kahramanListesi : ArrayList<String> , val kahramanGorselleri : ArrayList<Bitmap>) : RecyclerView.Adapter<RecyclerAdapter.SuperKahramanVH>() {
+class RecyclerAdapter (val kahramanListesi : ArrayList<String> , val kahramanGorselleri : ArrayList<Int>)/*ınte cevrildi verimli icin*/ : RecyclerView.Adapter<RecyclerAdapter.SuperKahramanVH>() {
     class SuperKahramanVH(val binding: RecyclerRowBinding) :RecyclerView.ViewHolder(binding.root) {
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SuperKahramanVH {
@@ -31,10 +31,16 @@ class RecyclerAdapter (val kahramanListesi : ArrayList<String> , val kahramanGor
             //normalde bitmap i aktivitiden aktiviteye göndermeyiz ama olduda gondermek zorunda kaldım bilelim
            // intent.putExtra("superKahramanIsmi",kahramanListesi.get(position)) bu şekilde gönderilmez!! uyg çöker singelton tekillik kullanıcaz
             //bir sınıf oluşturucam ve sadece bir nesne alıcak ve uyg heryerinden cagırıp kullanabilicem
+
+            intent.putExtra("superKahramanGorseli",kahramanGorselleri.get(position))
+
+            /* verimsiz çalışması
             val singleton = SingletonClass.SecilenKahraman
             singleton.gorsel=kahramanGorselleri.get(position)
-
+*/
             holder.itemView.context.startActivity(intent)
+
+
 
         }
     }

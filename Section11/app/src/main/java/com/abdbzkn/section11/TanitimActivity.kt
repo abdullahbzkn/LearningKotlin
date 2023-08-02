@@ -1,5 +1,6 @@
 package com.abdbzkn.section11
 
+import android.graphics.BitmapFactory
 import com.abdbzkn.section11.databinding.ActivityTanitimBinding
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -14,9 +15,17 @@ class TanitimActivity : AppCompatActivity() {
         val intent = intent
         val secilenKahramanIsmi= intent.getStringExtra("superKahramanIsmi")
         binding.textView.text = secilenKahramanIsmi
-        val secilenKahraman = SingletonClass.SecilenKahraman
+
+        val secilenKahramanGorseli = intent.getIntExtra("superKahramanGorseli",0)
+        val bitmap = BitmapFactory.decodeResource(applicationContext.resources,secilenKahramanGorseli)
+        binding.imageView2.setImageBitmap(bitmap)
+
+
+/*        val secilenKahraman = SingletonClass.SecilenKahraman
         val secilenGorsel = secilenKahraman.gorsel
         binding.imageView2.setImageBitmap(secilenGorsel)
+
+*/
 
     }
 }
