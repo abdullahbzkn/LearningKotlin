@@ -1,0 +1,57 @@
+LEARNİNG KOTLİN REPPORT
+
+Atıl Samancıoglu Btk Kursudur git versiyon kontrol sistemine, terminaline alışmak ve kotlinde öğrendiklerimi kalıcı hale getirmek için oluşturdum.
+Başlangıçta karşılaştığım versiyon ya da başka sebepli bir kaç sorun ve çözümleri :
+
+Kursa başlayınca öncelikle karşımıza ilk hata layout sebebiyle çıkıyor default olarak projeyi açınca Atıl hocanın yaptıklarını dizayn kısmında yapamıyoruz bunun çözümü projeyi başlangıçta empt view activity
+ile oluşturmak zaten daha sonra farklarını anlıyoruz. 
+
+En büyük sorun olarak adlandırabileceğimiz sorunumuz viewBinding eğitimin tarihinden ötürü dahil değil ve tamamen önümüzü kapatıyor bunun çözümü önce kursu bi kenara bırakıp bu kütüphaneyi anlamak
+ve anladıktan sonra projeyi başlattığımızda bunu ekleyerek kursa devam etmek. Bu sorun ile alakalı bir kaç link (kodlar sectionlarda bulunabilir [gradle manifest aktiviteler fragment içerisinde] Atıl
+hocanın yazdıklarıyla kıyaslanarak) :
+
+https://youtu.be/bB5McPcX8uI  : kotlin android extensions
+https://youtu.be/MW_IQkZEf1A  : View Binding
+https://youtu.be/Slyrlv97Qx0  : View Binding
+https://youtu.be/4o_jCJWxYV8  : RecyclerView
+https://youtu.be/qq3QJIxUzIo  : View Binding in fragments
+ekstra : https://youtu.be/-VmcdwHGv60
+
+SECTİONLAR :
+
+Section 1 :
+
+Section 2 :
+
+Section 3 :
+
+Section 4 :
+
+Section 5 :
+
+Section 6 :
+
+Section 7 :
+
+Section 8 :
+
+Section 9 :
+
+Section 10 :
+
+Section 11 :
+
+Section 12 :
+
+Section 13 :
+
+Section 14 :
+
+Section 15 :
+
+
+KURS HAKKINDA GÖRÜŞLERİM :
+
+Açıkçası kursun güncel olmamasından kaynaklı bu sorunları yaşarken beni yorsa da şimdi böyle olmasının benim açımdan daha iyi olduğunu düşünüyorum çünkü hazır hatasız ve güncel olsaydı
+belki prüzsüz ve zaman açısından hızlı öğrenirdim ama bu beni araştırmaya ve sorunlara karşı sabretmeye zorladı. Hiçbir fikrim yokken Atıl hocanın yazdıklarına izlediğim videolarda yazılanları entegre ettim deneyip doğrusunu bulmaya çalıştım.
+Sonrasında Atıl hocanın anlatımını beğendiğim için Udemyde bulunan 73 saatlik Java & Kotlin Android kursunu aldım.
