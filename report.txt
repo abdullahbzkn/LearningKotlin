@@ -1,4 +1,4 @@
-LEARNİNG KOTLİN REPPORT
+0LEARNİNG KOTLİN REPPORT
 
 Atıl Samancıoglu Btk Kursudur git versiyon kontrol sistemine, terminaline alışmak ve kotlinde öğrendiklerimi kalıcı hale getirmek için oluşturdum.
 Başlangıçta karşılaştığım versiyon ya da başka sebepli bir kaç sorun ve çözümleri :
@@ -20,16 +20,22 @@ ekstra : https://youtu.be/-VmcdwHGv60
 SECTİONLAR :
 
 Section 1 :
+Kotlin temelleri 01
 
 Section 2 :
+Kotlin temelleri 02
 
 Section 3 :
+Süper kahraman oluşturucu
 
 Section 4 :
+Dört işlem uygulaması
 
 Section 5 :
+Arayüz temelleri
 
 Section 6 :
+
 
 Section 7 :
 
