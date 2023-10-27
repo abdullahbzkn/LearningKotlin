@@ -1,4 +1,4 @@
-0LEARNİNG KOTLİN REPPORT
+LEARNİNG KOTLİN REPPORT
 
 Atıl Samancıoglu Btk Kursudur git versiyon kontrol sistemine, terminaline alışmak ve kotlinde öğrendiklerimi kalıcı hale getirmek için oluşturdum.
 Başlangıçta karşılaştığım versiyon ya da başka sebepli bir kaç sorun ve çözümleri :
@@ -16,6 +16,9 @@ https://youtu.be/Slyrlv97Qx0  : View Binding
 https://youtu.be/4o_jCJWxYV8  : RecyclerView
 https://youtu.be/qq3QJIxUzIo  : View Binding in fragments
 ekstra : https://youtu.be/-VmcdwHGv60
+ekstra : https://youtu.be/ENyQr9gVTic?si=KAIbW12SFSS9fNUP
+ekstra : https://youtu.be/IG-MgnO4e4s?si=iPWazc6ug6O1A5qi
+
 
 SECTİONLAR :
 
@@ -26,7 +29,7 @@ Section 2 :
 Kotlin temelleri 02
 
 Section 3 :
-Süper kahraman oluşturucu
+Örnek uygulama (temeller için)
 
 Section 4 :
 Dört işlem uygulaması
@@ -35,26 +38,31 @@ Section 5 :
 Arayüz temelleri
 
 Section 6 :
-
+Android Temelleri 01
 
 Section 7 :
+Android Temelleri 02
 
 Section 8 :
+Android Temelleri 03
 
 Section 9 :
+Shared Preferences Giriş
 
 Section 10 :
+Sayaçlar
 
 Section 11 :
+Runnable-Handler Yapıları
 
 Section 12 :
+Recycler View
 
 Section 13 :
+Fragment ve Navigation
 
 Section 14 :
-
-Section 15 :
-
+SQLite
 
 KURS HAKKINDA GÖRÜŞLERİM :
 
